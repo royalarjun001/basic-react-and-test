@@ -1,0 +1,10 @@
+.map-container {
+    padding: 15px;
+}
+
+.map-container > img {
+    max-width: 550px;
+    max-height: 550px;
+    border: 1px solid gray;
+    padding: 15px;
+}

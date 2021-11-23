@@ -1,0 +1,22 @@
+{
+    "stores": [
+        {
+            "location": "Groceries",
+            "address": "123 Sector 49",
+            "imgName": "groceries.png",
+            "id": "1"
+        },
+        {
+            "location": "Restaurants",
+            "address": "123 Sector 49",
+            "imgName": "restaurants.png",
+            "id": "2"
+        },
+        {
+            "location": "",
+            "address": "",
+            "imgName": "default-map.png",
+            "id": "3"
+        }
+    ]
+}
