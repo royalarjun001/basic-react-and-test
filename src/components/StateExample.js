@@ -1,6 +1,6 @@
 const StateExample = () => {
     return (
-        <div>
+        <div data-testid="use-state">
             <h2>useState Example</h2>
         </div>
      );
