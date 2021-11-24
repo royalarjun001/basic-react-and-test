@@ -2,11 +2,15 @@
   text-align: center;
 }
 
-.app-container ul{
+.app-container ul.navbar-nav{
   display: flex;
   list-style: none;
 }
 
 .app-container ul li{
   padding: 10px;
+}
+
+.app-container ul.history-list{
+  list-style: none;
 }
