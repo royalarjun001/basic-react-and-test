@@ -1,3 +1,12 @@
 .app-container {
   text-align: center;
 }
+
+.app-container ul{
+  display: flex;
+  list-style: none;
+}
+
+.app-container ul li{
+  padding: 10px;
+}
