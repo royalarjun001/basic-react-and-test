@@ -1,4 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
 import App from '../App';
 
 describe("App", () => {
@@ -23,5 +24,12 @@ describe("App", () => {
     const useStateContainer = screen.getByTestId('use-state');
     expect(useStateContainer).toHaveTextContent('useState Example');
   });
+
+  it('should render component for useRef example', () => {
+    const useRefRouteLink = screen.getByTestId('use-ref-route-link');
+    userEvent.click(useRefRouteLink);
+    const useRefComponentContainer = screen.getByTestId('use-ref-example-container');
+    expect(useRefComponentContainer).toHaveTextContent('useRef Hook Example');
+  })
 });
 

@@ -17,11 +17,6 @@ describe("StoreLocator", () => {
     expect(headerElement.length).toBe(1);
   });
 
-  // it('should render three button element', () => {
-  //   const buttonElement = screen.getAllByRole('button');
-  //   expect(buttonElement.length).toBe(3);
-  // });
-
   it('should render single map element', () => {
     const mapElement = screen.getAllByTestId('map-element');
     expect(mapElement.length).toBe(1);
